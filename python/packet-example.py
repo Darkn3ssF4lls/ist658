@@ -12,5 +12,5 @@ p = packet.Packet()
 p.add_protocol(e)
 p.add_protocol(a)
 p.serialize()
-print repr(p.data)  # the on-wire packet
+print (repr(p.data))  # the on-wire packet
 
